@@ -1,0 +1,245 @@
+[0.068s] Invoking command in '/home/ilena/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ilena/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilena/turtlebot3_ws/install/dynamixel_sdk
+[0.383s] -- The C compiler identification is GNU 13.3.0
+[0.705s] -- The CXX compiler identification is GNU 13.3.0
+[0.871s] -- Detecting C compiler ABI info
+[1.178s] -- Detecting C compiler ABI info - done
+[1.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.203s] -- Detecting C compile features
+[1.204s] -- Detecting C compile features - done
+[1.266s] -- Detecting CXX compiler ABI info
+[1.577s] -- Detecting CXX compiler ABI info - done
+[1.602s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.604s] -- Detecting CXX compile features
+[1.604s] -- Detecting CXX compile features - done
+[1.610s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.147s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.393s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.450s] -- Configuring done (3.3s)
+[3.507s] -- Generating done (0.0s)
+[3.519s] -- Build files have been written to: /home/ilena/turtlebot3_ws/build/dynamixel_sdk
+[3.545s] Invoked command in '/home/ilena/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ilena/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilena/turtlebot3_ws/install/dynamixel_sdk
+[3.548s] Invoking command in '/home/ilena/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ilena/turtlebot3_ws/build/dynamixel_sdk
+[3.766s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[3.766s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[3.777s] [ 11%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[3.786s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[3.796s] [ 16%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[3.803s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[3.833s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[5.044s] running egg_info
+[5.045s] creating dynamixel_sdk.egg-info
+[5.045s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[5.077s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[5.121s] writing dynamixel_sdk.egg-info/PKG-INFO
+[5.122s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[5.123s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[5.125s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[5.273s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[5.407s] running egg_info
+[5.408s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[5.411s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[5.411s] creating dynamixel_easy_sdk.egg-info
+[5.482s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[5.482s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[5.483s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[5.483s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[5.576s] [ 44%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[5.601s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[5.641s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[5.703s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[5.705s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[5.782s] [ 55%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[5.804s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[5.871s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[6.393s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[6.548s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[6.659s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[6.707s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[6.768s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[10.227s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[10.465s] [100%] Built target dynamixel_sdk
+[10.489s] Invoked command in '/home/ilena/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ilena/turtlebot3_ws/build/dynamixel_sdk
+[10.493s] Invoking command in '/home/ilena/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ilena/turtlebot3_ws/build/dynamixel_sdk
+[10.507s] -- Install configuration: ""
+[10.509s] -- Execute custom install script
+[10.514s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[10.531s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[10.548s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[10.568s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[10.584s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[10.602s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[10.619s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[10.637s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[10.653s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[10.669s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[10.686s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[10.704s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[10.723s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[10.740s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[10.758s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[10.776s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[10.793s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[10.816s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[10.838s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[10.858s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[10.884s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[10.904s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[10.925s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[10.948s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[10.969s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[10.994s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[11.019s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[11.044s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[11.066s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[11.086s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[11.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[11.131s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[11.157s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[11.181s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[11.204s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[11.222s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[11.240s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[11.260s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[11.288s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[11.311s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[11.327s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[11.346s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[11.363s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[11.382s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[11.400s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[11.418s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[11.436s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[11.453s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[11.468s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[11.486s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[11.501s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[11.521s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[11.539s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[11.557s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[11.577s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[11.598s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[11.618s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[11.646s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[11.667s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[11.686s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[11.706s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[11.726s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[11.747s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[11.769s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[11.802s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[11.826s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[11.847s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[11.869s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[11.894s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[11.918s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[11.942s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[11.961s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[11.980s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[12.001s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[12.027s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[12.052s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[12.074s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[12.099s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[12.120s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[12.144s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[12.165s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[12.188s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[12.213s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[12.239s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[12.259s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[12.279s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[12.306s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[12.331s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[12.357s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[12.377s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[12.400s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[12.421s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[12.445s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[12.470s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[12.504s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[12.539s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[12.572s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[12.603s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[12.626s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[12.646s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[12.670s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[12.697s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[12.730s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[12.755s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[12.778s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[12.806s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[12.829s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[12.853s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[12.879s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[12.909s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[12.935s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[12.964s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[12.989s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[13.026s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[13.059s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[13.087s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[13.114s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[13.141s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[13.162s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[13.188s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[13.214s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[13.243s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[13.271s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[13.297s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[13.321s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[13.346s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[13.378s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py
+[13.398s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.cpp
+[13.422s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py
+[13.446s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.cpp
+[13.469s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py
+[13.493s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py
+[13.517s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[13.541s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py
+[13.563s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.cpp
+[13.628s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py
+[13.666s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.cpp
+[13.690s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py
+[13.715s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[13.748s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[13.783s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[13.804s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[13.825s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[13.847s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[13.869s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[13.890s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[13.912s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[13.936s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[13.961s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[13.983s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[14.018s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[14.060s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[14.096s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[14.129s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.161s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[14.192s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[14.227s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[14.259s] -- Symlinking: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[14.291s] -- Installing: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[14.669s] Listing '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[14.670s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py'...
+[14.670s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py'...
+[14.670s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py'...
+[14.673s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py'...
+[14.677s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py'...
+[14.677s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py'...
+[14.678s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py'...
+[14.678s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[14.678s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[14.678s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py'...
+[14.887s] Listing '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk'...
+[14.887s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py'...
+[14.888s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py'...
+[14.888s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py'...
+[14.888s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py'...
+[14.888s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[14.889s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py'...
+[14.889s] Compiling '/home/ilena/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py'...
+[14.909s] -- Installing: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[14.910s] -- Installing: /home/ilena/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[14.918s] Invoked command in '/home/ilena/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ilena/turtlebot3_ws/build/dynamixel_sdk

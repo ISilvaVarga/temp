@@ -1,0 +1,53 @@
+[0.078s] Invoking command in '/home/ilena/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ilena/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilena/turtlebot3_ws/install/turtlebot3_navigation2
+[2.671s] -- The C compiler identification is GNU 13.3.0
+[2.671s] -- The CXX compiler identification is GNU 13.3.0
+[2.672s] -- Detecting C compiler ABI info
+[2.672s] -- Detecting C compiler ABI info - done
+[2.672s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.672s] -- Detecting C compile features
+[2.672s] -- Detecting C compile features - done
+[2.672s] -- Detecting CXX compiler ABI info
+[2.673s] -- Detecting CXX compiler ABI info - done
+[2.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.673s] -- Detecting CXX compile features
+[2.673s] -- Detecting CXX compile features - done
+[2.673s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.674s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.674s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.674s] -- Configuring done (2.5s)
+[2.674s] -- Generating done (0.0s)
+[2.674s] -- Build files have been written to: /home/ilena/turtlebot3_ws/build/turtlebot3_navigation2
+[2.693s] Invoked command in '/home/ilena/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ilena/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilena/turtlebot3_ws/install/turtlebot3_navigation2
+[2.693s] Invoking command in '/home/ilena/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ilena/turtlebot3_ws/build/turtlebot3_navigation2
+[2.834s] Invoked command in '/home/ilena/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ilena/turtlebot3_ws/build/turtlebot3_navigation2
+[2.836s] Invoking command in '/home/ilena/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ilena/turtlebot3_ws/build/turtlebot3_navigation2
+[3.106s] -- Install configuration: ""
+[3.106s] -- Execute custom install script
+[3.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[3.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[3.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[3.107s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[3.108s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[3.108s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[3.108s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[3.114s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.123s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.155s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.188s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.212s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.238s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.264s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.285s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.318s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.345s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.368s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.397s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.426s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.447s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.491s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.519s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.552s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.585s] -- Symlinking: /home/ilena/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.627s] Invoked command in '/home/ilena/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ilena/turtlebot3_ws/build/turtlebot3_navigation2
